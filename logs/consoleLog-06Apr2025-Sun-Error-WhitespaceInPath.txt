@@ -1,0 +1,100 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.4.4)[0;39m
+
+[2m2025-04-06T15:13:12.342+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mc.raghsonline.sftp.SFTPDemoApplication  [0;39m [2m:[0;39m Starting SFTPDemoApplication using Java 17.0.6 with PID 24737 (/Users/raghavan.muthu/Documents/workspace-spring-tool-suite-4-4.28.1.RELEASE/115-gradle-spring-integration-sftp-demo/bin/main started by raghavan.muthu in /Users/raghavan.muthu/Documents/workspace-spring-tool-suite-4-4.28.1.RELEASE/115-gradle-spring-integration-sftp-demo)
+[2m2025-04-06T15:13:12.343+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mc.raghsonline.sftp.SFTPDemoApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-04-06T15:13:12.540+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mfaultConfiguringBeanFactoryPostProcessor[0;39m [2m:[0;39m No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2m2025-04-06T15:13:12.543+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mfaultConfiguringBeanFactoryPostProcessor[0;39m [2m:[0;39m No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2m2025-04-06T15:13:12.674+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-04-06T15:13:12.678+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-04-06T15:13:12.679+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.39]
+[2m2025-04-06T15:13:12.693+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-04-06T15:13:12.693+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 336 ms
+[2m2025-04-06T15:13:12.954+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mo.s.i.endpoint.EventDrivenConsumer      [0;39m [2m:[0;39m Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2m2025-04-06T15:13:12.954+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mo.s.i.channel.PublishSubscribeChannel   [0;39m [2m:[0;39m Channel '115-gradle-spring-integration-sftp-demo.errorChannel' has 1 subscriber(s).
+[2m2025-04-06T15:13:12.954+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mo.s.i.endpoint.EventDrivenConsumer      [0;39m [2m:[0;39m started bean '_org.springframework.integration.errorLogger'
+[2m2025-04-06T15:13:12.961+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-04-06T15:13:12.966+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [           main] [0;39m[36mc.raghsonline.sftp.SFTPDemoApplication  [0;39m [2m:[0;39m Started SFTPDemoApplication in 0.755 seconds (process running for 0.953)
+[2m2025-04-06T15:13:19.618+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2025-04-06T15:13:19.618+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2025-04-06T15:13:19.619+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2025-04-06T15:13:19.634+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mc.r.sftp.controller.SFTPController      [0;39m [2m:[0;39m /list - Request received
+[2m2025-04-06T15:13:19.644+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mo.a.s.c.i.DefaultIoServiceFactoryFactory[0;39m [2m:[0;39m No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+[2m2025-04-06T15:13:19.717+05:30[0;39m [33m WARN[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] []-nio2-thread-5] [0;39m[36mo.a.s.c.k.AcceptAllServerKeyVerifier    [0;39m [2m:[0;39m Server at localhost/127.0.0.1:22 presented unverified EC key: SHA256:2eMu+YajcAz5z2LynTDPJ63AUDO0Q15UlsaKtcleY8c
+[2m2025-04-06T15:13:19.719+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] []-nio2-thread-5] [0;39m[36m.s.c.k.e.p.HostBoundPubkeyAuthentication[0;39m [2m:[0;39m Server announced support for publickey-hostbound@openssh.com version 0
+[2m2025-04-06T15:13:19.726+05:30[0;39m [33m WARN[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] []-nio2-thread-6] [0;39m[36ma.s.c.c.k.DefaultClientIdentitiesWatcher[0;39m [2m:[0;39m loadKeys(/Users/raghavan.muthu/.ssh/id_ed25519) failed (NoSuchAlgorithmException) to load key: Unsupported key type (ssh-ed25519) in /Users/raghavan.muthu/.ssh/id_ed25519
+[2m2025-04-06T15:13:19.933+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m  |*| File : postman-test-sftp.txt
+[2m2025-04-06T15:13:19.933+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m  |*| File : 04Apr2025-Fri-SSH-Upload-NNTO.txt
+[2m2025-04-06T15:13:19.933+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m  |*| File : 04Apr2025-Fri-SFTP-Response-NNTO.txt
+[2m2025-04-06T15:13:19.933+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m  |*| File : test.txt
+[2m2025-04-06T15:13:19.933+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m  |*| File : test-3.txt
+[2m2025-04-06T15:13:19.933+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m  |*| File : test-2.txt
+[2m2025-04-06T15:13:19.936+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-2] [0;39m[36mc.r.sftp.controller.SFTPController      [0;39m [2m:[0;39m No. of files - 6
+[2m2025-04-06T15:15:46.608+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-5] [0;39m[36mc.r.sftp.controller.SFTPController      [0;39m [2m:[0;39m Method : 'getMethodName', Request URI: '/sftp/upload-local', Full URL: 'http://localhost:8080/sftp/upload-local'
+[2m2025-04-06T15:15:46.608+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-5] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m localPath : /Users/raghavan.muthu/Desktop/04Apr2025-Fri-SSH-SFTP-Test /04Apr2025-Fri-SSH-Upload-NNTO.txt
+[2m2025-04-06T15:15:46.609+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-5] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m localPath.toString : /Users/raghavan.muthu/Desktop/04Apr2025-Fri-SSH-SFTP-Test /04Apr2025-Fri-SSH-Upload-NNTO.txt
+[2m2025-04-06T15:15:46.609+05:30[0;39m [32m INFO[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-5] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m resource : URL [file:///Users/raghavan.muthu/Desktop/04Apr2025-Fri-SSH-SFTP-Test%20/04Apr2025-Fri-SSH-Upload-NNTO.txt]
+[2m2025-04-06T15:15:46.609+05:30[0;39m [31mERROR[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-5] [0;39m[36mc.raghsonline.sftp.service.SFTPService  [0;39m [2m:[0;39m Local File not found - {}/Users/raghavan.muthu/Desktop/04Apr2025-Fri-SSH-SFTP-Test /04Apr2025-Fri-SSH-Upload-NNTO.txt
+[2m2025-04-06T15:15:46.614+05:30[0;39m [31mERROR[0;39m [35m24737[0;39m [2m--- [115-gradle-spring-integration-sftp-demo] [nio-8080-exec-5] [0;39m[36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.FileNotFoundException: Local File not found - {}/Users/raghavan.muthu/Desktop/04Apr2025-Fri-SSH-SFTP-Test /04Apr2025-Fri-SSH-Upload-NNTO.txt
+	at com.raghsonline.sftp.service.SFTPService.uploadLocalFile(SFTPService.java:228) ~[main/:na]
+	at com.raghsonline.sftp.controller.SFTPController.uploadLocal(SFTPController.java:115) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
